@@ -1,0 +1,59 @@
+.navbar {
+    background-color: rgb(138, 43, 226);
+    padding: 50px;
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+input[type="text"],
+.submit {
+    outline: none;
+    padding: 5px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+}
+.submit {
+    width: 80px !important;
+}
+.catagRight {
+    cursor: pointer;
+}
+.catagories {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 5px;
+    border: 0.3px solid gray;
+}
+.down {
+    border: 1px solid grey;
+    padding: 0.5px 3px 5px 3px;
+    background-color: honeydew;
+}
+.hoverlist {
+    position: absolute;
+    background-color: rgb(111, 0, 255, 0.4);
+    font-size: 20px;
+    list-style: none;
+    width: 129px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 2px;
+    transition: 0.3s ease-in-out;
+}
+.hoverlist li {
+    padding: 3.5px 0px;
+}
+.hoverlist li:last-child {
+    margin-bottom: 2px;
+}
+.hoverlist li:hover {
+    background-color: rgb(111, 0, 255, 0.6);
+}
